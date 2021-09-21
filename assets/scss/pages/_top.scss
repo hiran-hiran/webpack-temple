@@ -1,0 +1,50 @@
+@use '../global' as global;
+@use '../global/shortcut-functions' as f;
+
+* {
+  font-size: 16px;
+}
+.js_slick {
+  li {
+    background-color: pink;
+    width: 300px;
+    height: 300px;
+  }
+}
+
+.img {
+  height: 200px;
+  width: 100%;
+  background: url('/assets/img/eyecatch-webpack.png') no-repeat center / contain;
+}
+// @include global.mq(sp) {
+//   #top {
+//     margin: f.sp((20 auto));
+//     font-size: f.sp(24);
+//   }
+// }
+
+// @include global.mq(tb1) {
+// 	#top {
+// 		display: none;
+// 	}
+// }
+
+// @include global.mq(tb2) {
+// 	#top {
+// 		display: none;
+// 	}
+// }
+
+// @include global.mq(pc1) {
+// 	#top {
+// 		margin: f.pc1((20 auto 40));
+// 		font-size: f.pc1(24);
+// 	}
+// }
+
+// @include global.mq(pc2) {
+// 	#top {
+// 		display: none;
+// 	}
+// }

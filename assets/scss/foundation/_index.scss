@@ -1,0 +1,13 @@
+@use 'ress';
+@use 'responsive';
+@use '../global' as global;
+
+html {
+  -webkit-text-size-adjust: none;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: global.$font-family-default;
+  @include global.selection(rgb(55, 245, 121), white);
+}

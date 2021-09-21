@@ -1,0 +1,10 @@
+div {
+  color: black;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #30268e, #ed1e79);
+  height: 100px;
+}

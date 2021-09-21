@@ -1,0 +1,17 @@
+assets/css/*
+
+# gulp
+logs
+*.log
+pids
+*.pid
+*.seed
+lib-cov
+coverage
+.nyc_output
+.grunt
+build/Release
+node_modules
+.lock-wscript
+.DS_Store
+test.xunit
